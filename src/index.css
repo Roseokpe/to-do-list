@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+body {
+  background-color: #ffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 22px;
+}
+
+.created-div {
+  border-bottom: 1px solid #d3d3d3;
+  opacity: 0.75;
+  padding: 6px;
+}
+
+.list {
+  box-shadow: 5px 5px 15px -2px rgb(35, 34, 34, 0.8);
+  background-color: white;
+  padding-top: 22px;
+  border-radius: 7px;
+}
+
+.input-task {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  margin-left: 20px;
+  padding: 6px;
+  width: 90%;
+}
+
+.todo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 20px;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+
+.todo-input {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-input input::placeholder {
+  font-style: italic;
+}
+
+.to-do {
+  margin: 15px 20px;
+}
+
+.inactive {
+  display: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.task-ui {
+  display: flex;
+  padding-left: 12px;
+  align-items: center;
+}
+
+.icon {
+  margin-left: auto;
+  margin-right: 12px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.highlight {
+  background-color: rgb(220, 220, 220);
+}
+
+.para {
+  margin-left: 12px;
+  padding: 12px;
+}
+
+.para:focus {
+  outline: none;
+}
+
+.bttn {
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding: 15px 0;
+  border-top: 1px solid rgb(0, 0, 0, 0.4);
+  color: rgb(35, 34, 34);
+}
+
+.bttn:hover {
+  background-color: rgb(223, 220, 220);
+  cursor: pointer;
+}
+
+.check {
+  margin-right: 4px;
+}
