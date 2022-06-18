@@ -11,8 +11,21 @@ In this project, this simple To-do-list web App. was built using webpack and ser
     - Git and Github
     - Linters
 
-## setup details 
-You can access it from your browser
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.For SSH:`git@github.com:roseokp/To-Do-List.git`For https:`https://github.com/roseokpe/To-Do-List.git`
+
+### Install
+Run `npm install` after cloning the repo.
+
+### Usage
+Run `npm start` for development. Run `npm run build` for production. 
+
+### Run tests
+- Run `npx eslint .` for JS check
+- Run `npx eslint . --fix` to fix JS errors if found
+- Run `npx stylelint "**/*.{css,scss}"` for CSS check
+- Run `npx stylelint "**/*.{css,scss}" --fix` to fix CSS errors if found.
 
 ## Live Demo
 
