@@ -32,7 +32,3 @@ Run `npm start` for development. Run `npm run build` for production.
 
 ## Show your support
     Give a star if you like this project
-
-# Acknowledgements
-  -   Hat tip to anyone whose code was used
-  -   Inspiration
