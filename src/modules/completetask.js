@@ -18,11 +18,11 @@ const completeTask = () => {
 
   checkbox.forEach((item, index) => {
     item.addEventListener('change', (e) => {
-        for (let i = 0; i < tasks.length; i += 1){
-            if(e.checked && tasks[i].index === index + 1) {
-            tasks[i].completed = true;
-            }
+      for (let i = 0; i < tasks.length; i += 1) {
+        if (e.checked && tasks[i].index === index + 1) {
+          tasks[i].completed = true;
         }
+      }
 
       localStorage.setItem('tasks', JSON.stringify(tasks));
       tasksDiv.innerHTML = '';
