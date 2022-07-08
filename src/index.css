@@ -119,3 +119,10 @@ body {
 .check {
   margin-right: 4px;
 }
+
+.is-completed {
+  text-decoration: line-through;
+
+}
+
+

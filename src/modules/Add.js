@@ -4,4 +4,4 @@ export default class Add {
     this.completed = completed;
     this.index = index;
   }
-}
+} 
