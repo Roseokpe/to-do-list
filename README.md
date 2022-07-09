@@ -1,5 +1,8 @@
-# to-do-list
-In this project, this simple To-do-list web App. was built using webpack and served by a webpack dev server.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# To Do list: interactive list
+
+In this project, I add some functionality to this application to make interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
 
 ## Built with 
     Major Languages
@@ -11,9 +14,14 @@ In this project, this simple To-do-list web App. was built using webpack and ser
     - Git and Github
     - Linters
 
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.For SSH:`git@github.com:roseokp/To-Do-List.git`For https:`https://github.com/roseokpe/To-Do-List.git`
+To get a local copy up and running follow these simple example steps. For SSH:`git@github.com:roseokp/To-Do-List.git`For https:`https://github.com/roseokpe/To-Do-List.git`
 
 ### Install
 Run `npm install` after cloning the repo.
@@ -27,8 +35,24 @@ Run `npm start` for development. Run `npm run build` for production.
 - Run `npx stylelint "**/*.{css,scss}"` for CSS check
 - Run `npx stylelint "**/*.{css,scss}" --fix` to fix CSS errors if found.
 
-## Live Demo
+## Authors
 
+👤 **Author1**
+
+- GitHub: [@roseokpe](https://github.com/roseokpe)
+- Twitter: [@roseokpe](https://twitter.com/roseokpe)
+- LinkedIn: [LinkedIn]()
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
 
 ## Show your support
-    Give a star if you like this project
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

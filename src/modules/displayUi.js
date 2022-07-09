@@ -1,7 +1,6 @@
 import { tasks } from './tasks';
 
 const displayUI = ({ description, completed }) => {
-  console.log(`d:${description} x:${completed}`);
   const todoLists = document.querySelector('.to-do');
 
   const taskContainer = document.createElement('div');
@@ -20,6 +19,10 @@ const displayUI = ({ description, completed }) => {
   trash.setAttribute('class', 'fa-solid fa-trash');
   trash.classList.add('hidden', 'icon', 'trash');
 
+  const edit = document.createElement('i');
+  edit.setAttribute('class', 'fa-solid fa-edit');
+  edit.classList.add('hidden', 'icon', 'edit');
+
   const checkbox = document.createElement('input');
   checkbox.setAttribute('type', 'checkbox');
   checkbox.classList.add('check');
@@ -31,15 +34,13 @@ const displayUI = ({ description, completed }) => {
     taskContainer.classList.remove('is-completed');
   }
 
-  taskContainer.append(checkbox, descPara, trash, ellipse);
+  taskContainer.append(checkbox, descPara, edit, trash, ellipse);
   todoLists.appendChild(taskContainer);
 };
 
 const displayEachTask = () => {
-  console.log(tasks);
   tasks.forEach((task) => {
     displayUI(task);
-    console.log(task);
   });
 };
 
