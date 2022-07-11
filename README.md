@@ -14,9 +14,9 @@ In this project, I add some functionality to this application to make interactiv
     - Git and Github
     - Linters
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link][(https://livedemo.com](https://roseokpe.github.io/to-do-list/))
 
 
 ## Getting Started
