@@ -7,7 +7,7 @@
   "description": "In this project, this simple To-do-list web App. was built using webpack and served by a webpack dev server.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "watch": "jest --watch *.js",
     "build": "webpack",
     "start": "webpack serve --open",
