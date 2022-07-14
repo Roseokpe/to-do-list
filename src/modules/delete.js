@@ -35,3 +35,5 @@ const deleteTodo = () => {
 };
 
 export default deleteTodo;
+
+module.exports = deleteTodo;
