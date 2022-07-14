@@ -3,7 +3,7 @@ import { tasks } from './tasks';
 import displayEachTask from './displayUi';
 import deleteTodo from './delete';
 
-const addtask = () => {
+const addTasks = () => {
   const input = document.querySelector('.input-task');
 
   input.addEventListener('keydown', (event) => {
@@ -22,4 +22,6 @@ const addtask = () => {
   });
 };
 
-export default addtask;
+export default addTasks;
+
+// module.exports = { addTasks };
